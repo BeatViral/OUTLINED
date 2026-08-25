@@ -73,6 +73,10 @@ npm run build
 4. In Pages environment variables, set `VITE_API_BASE_URL` to the deployed Worker URL. Rebuild Pages.
 5. If using a custom domain, restrict Worker CORS in `worker/index.ts` to that domain before launch.
 
+### GitHub Pages API configuration
+
+This repository publishes the static frontend to `gh-pages`. After deploying the Worker, add a repository Actions variable named `VITE_API_BASE_URL` with the Worker URL (for example, `https://outlined-api.<account>.workers.dev`). Push a new commit or re-run the Pages workflow. Without this variable, the site correctly shows an API error rather than fabricated AI output.
+
 ## Adding reviewed content
 
 Add a public job to `src/data/jobs.json`, then add the matching complete solution record to `src/data/solutions.json`. Its module IDs must exist in `src/data/modules.json`, and it must have a source URL, verification date, disclaimer, and at least one real AI action for Priority A records. Do not publish anonymous research as a named public organisation; follow `docs/PUBLISHING_RULES.md`.
