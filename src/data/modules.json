@@ -1,0 +1,97 @@
+{
+  "DISCOVERY": {
+    "name": "Work Discovery Agent",
+    "description": "Takes a real task/process and identifies friction, repetition, inputs, outputs, human judgement and AI opportunities.",
+    "endpoint": "/api/analyse-work"
+  },
+  "PRIORITY": {
+    "name": "AI Opportunity Prioritiser",
+    "description": "Ranks opportunities by business value, time saved, effort, risk and readiness so teams know what to do first.",
+    "endpoint": "/api/score-opportunity"
+  },
+  "WORKFLOW": {
+    "name": "Workflow Architect",
+    "description": "Turns a real business task into a step-by-step human + AI workflow with inputs, outputs, checkpoints and escalation.",
+    "endpoint": "/api/design-workflow"
+  },
+  "AGENT": {
+    "name": "Agent Builder",
+    "description": "Designs specialised agents for repeatable work, including purpose, tools, boundaries, hand-offs and testing criteria.",
+    "endpoint": "/api/design-agent"
+  },
+  "COACH": {
+    "name": "Role AI Coach",
+    "description": "Gives practical, role-specific guidance in the flow of work rather than generic AI training.",
+    "endpoint": "/api/coach"
+  },
+  "HELP": {
+    "name": "AI Help Desk",
+    "description": "Handles day-to-day AI questions, troubleshooting and 'how do I do this?' requests.",
+    "endpoint": "/api/help"
+  },
+  "TRAIN": {
+    "name": "Learning & Practice Studio",
+    "description": "Creates workshops, practice tasks, role learning paths, playbooks and follow-up practice tied to real work.",
+    "endpoint": "/api/build-learning-plan"
+  },
+  "GOV": {
+    "name": "Governance & Safe-Use Agent",
+    "description": "Maps the proposed AI use to privacy, security, IP, responsible-AI and approval requirements.",
+    "endpoint": "/api/check-governance"
+  },
+  "LIBRARY": {
+    "name": "Approved Use-Case Library",
+    "description": "Stores reusable workflows, prompts, playbooks, agents, examples and lessons learned.",
+    "endpoint": "Static reviewed content + generated export"
+  },
+  "CHAMPIONS": {
+    "name": "AI Champions Hub",
+    "description": "Coordinates champions, office hours, peer sharing, blockers and adoption activity.",
+    "endpoint": "/api/build-champion-plan"
+  },
+  "ADOPTION": {
+    "name": "Adoption Intelligence",
+    "description": "Shows where people are adopting AI, where they are stuck and what support or workflow changes are needed.",
+    "endpoint": "/api/adoption-diagnostic"
+  },
+  "ROI": {
+    "name": "Value & ROI Engine",
+    "description": "Defines baselines and measures time, quality, cost, adoption and business outcomes without inventing results.",
+    "endpoint": "/api/value-model"
+  },
+  "RADAR": {
+    "name": "AI Tool & Capability Radar",
+    "description": "Tracks tool/model changes and identifies when new capability changes an earlier recommendation.",
+    "endpoint": "/api/tool-radar (later web-connected)"
+  },
+  "LICENSE": {
+    "name": "AI Tool & Licence Optimiser",
+    "description": "Reviews tool usage, overlap, licence utilisation and cost versus value.",
+    "endpoint": "/api/licence-review"
+  },
+  "WORKFORCE": {
+    "name": "AI Workforce Registry",
+    "description": "Tracks agents/digital workers, owners, permissions, purpose, status, cost, performance and human supervisor.",
+    "endpoint": "/api/agent-registry (data model first)"
+  },
+  "CHANGE": {
+    "name": "Change & Communications Agent",
+    "description": "Builds stakeholder plans, readiness actions, communications, launch plans and feedback loops.",
+    "endpoint": "/api/change-plan"
+  },
+  "IMPLEMENT": {
+    "name": "Implementation Control Room",
+    "description": "Tracks initiatives from idea through approval, build, pilot, rollout, issues and value realisation.",
+    "endpoint": "/api/implementation-plan"
+  },
+  "EXEC": {
+    "name": "Executive AI Briefing Agent",
+    "description": "Turns adoption, value, risk and pipeline data into concise leadership briefings and decisions required.",
+    "endpoint": "/api/executive-brief"
+  },
+  "VENDOR": {
+    "name": "Vendor & Tool Evaluation Agent",
+    "description": "Compares candidate AI tools against requirements, risk, integration, cost and expected value.",
+    "endpoint": "/api/compare-tools"
+  }
+}

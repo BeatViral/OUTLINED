@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-08-25",
+  "job_briefs": 42,
+  "public_pages": 34,
+  "priority_a": 21,
+  "modules": 19,
+  "master_workbook": "AI_Job_Solution_Engine_PreGit_Master.xlsx",
+  "data_files": [
+    "src/data/jobs.json",
+    "src/data/solutions.json",
+    "src/data/modules.json"
+  ],
+  "docs": [
+    "docs/BUILD_PLAN.md",
+    "docs/FIRST_BUILD_ORDER.md",
+    "docs/FIRST_PAGE_ABC.md",
+    "docs/PAGE_TEMPLATE.md",
+    "docs/PRE_GIT_CHECKLIST.md",
+    "docs/PRODUCT_SPEC.md",
+    "docs/PUBLISHING_RULES.md",
+    "docs/REAL_AI_ACTIONS.md",
+    "docs/SITE_COPY.md",
+    "docs/SOLUTION_AGENT_PROMPT.md",
+    "docs/TECHNICAL_ARCHITECTURE.md"
+  ],
+  "repo_hygiene": [
+    ".gitignore",
+    ".env.example"
+  ]
+}
